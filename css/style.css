@@ -4,7 +4,12 @@ h1,h2{
 /* p{
     font-family: Roboto;
 } */
-
+html { height: 100%; }
+body {
+    min-height:100%; 
+    padding-bottom:[footer-height]
+    
+}
 #showcase h1{
     font-size:50px;
     margin-bottom: 20px;
@@ -14,10 +19,16 @@ h1,h2{
     width: 90%;
     margin-left:60px
 }
+.py-2{
+  color: black !important;
+}
+.py-2:hover{
+  color:red !important;
+}
 .jumbotron {
     color: aliceblue;
     background-image: url("/img/");
-    background-color: #17234E;
+    background-color: black;
     margin-bottom: 0;
     min-height: 50%;
     background-repeat: no-repeat;
@@ -63,12 +74,57 @@ h1,h2{
     font-size: 55px;
     color: red;
   } 
-  a.py-2:hover{
-    color:red
+  
+
+  .inner{
+    overflow: hidden;
   }
 
-   a:hover{
-    color: red
+  .inner img{
+    transition:all 1.5s ease;
   }
-  /* contact us */
+  .inner:hover img{
+    transform: scale(1.5)
+  }
+  .fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  a.py-2 :hover{
+    color: red !important;
+
+  }
+  /* .footer { 
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    height:[footer-height]; 
+} */
+
+
+
+  @media screen and (max-width: 600px) {
+    nav.site-header {float: none;}
+  }
   

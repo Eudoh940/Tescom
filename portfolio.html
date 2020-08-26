@@ -8,104 +8,220 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/carousel.css">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-    <nav class="d-flex flex-column flex-md-row justify-content-between bg-danger">
-        <a class="nav-item nav-link text-light" style="margin-left: 70px;" href="#">PHONE:+2347033134949, +2348025947118</a>
-        <a class="nav-item nav-link text-light"  style="margin-right: 525px;" href="#"></a>
-        <a class="nav-item nav-link text-light" href="#"></a>
-        <a class="nav-item nav-link text-light" style="margin-right:70px;" href="#">media icons</a>
-      </nav>
+  <div class="wrapper">
+    <nav class="d-flex flex-column flex-md-row justify-content-between" style="background-color: rgb(0, 0, 0);padding-bottom:0; padding-top: 1px;">
+      <a class="nav-item nav-link text-light" style="margin-left: 70px; margin-top: 3px;" href="#"><i class="fa fa-phone" style="font-size:20px;color:red; padding:3px"></i>+2347033134949, +2348025947118</a>
+      <a class="nav-item nav-link text-light"  style="margin-right: 525px;" href="#"></a>
+      <a class="nav-item nav-link text-light" href="#"></a>
+      <a class="nav-item nav-link text-light" style="margin-right:70px;" href="#">
+        <div class="icons" style="margin-right: -8px;">
+          <i href="#" class="fa fa-facebook w3-tiny"></i>
+          <i href="#" class="fa fa-twitter w3-tiny"></i>
+          <i href="#" class="fa fa-linkedin w3-tiny"></i>
+          <i href="#" class="fa fa-instagram w3-tiny"></i>
+        </div>
+      </a>
+    </nav>
 
-      <!-- navbar -->
-          <nav class="site-header sticky-top py-1 shadow p-3 mb-5 bg-white rounded">
-              <div class="d-flex flex-column flex-md-row justify-content-between">
-                <a class="py-2" style="margin-left: 50px;" href="index.html" aria-label="Tescom"> <img src="img/Tescom Digital Academy, Lagos (@tescomdigitalacademy) • Instagram photos and videos_files/tescom 2.jpg" style="height: 90px; width:140px;">
-                </a>
-                <a class="py-2 d-none d-md-inline-block text-dark" href="index.html" style="margin-left: 600px; margin-top: 35px;">HOME</a>
-                <a class="py-2 d-none d-md-inline-block text-dark" style="margin-top:35px;" href="about.html">ABOUT US</a>
-                <a class="py-2 d-none d-md-inline-block text-dark"style="margin-left: 0px; margin-top:35px" href="service.html">SERVICES</a>
-                <a class="py-2 d-none d-md-inline-block text-dark" style="margin-top:35px;" href="training.html">TRAINING</a>
-                <a class="py-2 d-none d-md-inline-block text-dark" style="margin-top:35px;" href="portfolio.html">PORTFOLIO</a>
+    <!-- navbar -->
+        <nav class="site-header sticky-top py-1 shadow p-3 mb-5 bg-white rounded">
+            <div class="d-flex flex-column flex-md-row justify-content-between">
+              <a class="py-1" style="margin-left: 50px;" href="index.html" aria-label="Tescom"> <img src="img/Tescom Digital Academy, Lagos (@tescomdigitalacademy) • Instagram photos and videos_files/tescom 2.jpg" style="height: 95px; width:180px;"></a>
+    
+                <a class="py-2 d-none d-md-inline-block" href="index.html" style="margin-left: 400px; margin-top: 30px;">HOME</a>
+                <a class="py-2 d-none d-md-inline-block" style="padding: -56px; margin-top:30px;" href="about.html">ABOUT US</a>
+                <a class="py-2 d-none d-md-inline-block" style="margin-left: 0px; margin-top:30px" href="service.html">SERVICES</a>
+                <a class="py-2 d-none d-md-inline-block" style="margin-top:30px;" href="training.html">TRAINING</a>
+                <a class="py-2 d-none d-md-inline-block" style="margin-top:30px;" href="portfolio.html">PORTFOLIO</a>
                 
-                <a class="py-2 d-none d-md-inline-block text-dark" style="margin-top:35px;" href="#">BLOG</a>
-                <a class="py-2 d-none d-md-inline-block text-dark"style="margin-right: 70px; margin-top:35px;" href="contact.html">CONTACT US</a>
-              </div>
-            </nav>
+                <a class="py-2 d-none d-md-inline-block" style="margin-top:30px;" href="#">BLOG</a>
+                <a class="py-2 d-none d-md-inline-block" style="margin-right: 70px; margin-top:30px;" href="contact.html">CONTACT US</a>
+              
+            </div>
+          </nav>
             
       <!-- welcome  banner -->
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid" style="background-color: black; margin-top: -47px;">
         <div class="container">
           <h1 class="display-4">Our Portfolio</h1>
           <p class="lead">Portfolio that occupies the entire horizontal space of its parent.</p>
         </div>
       </div>
-            
-
-      <footer class="py-5 bg-dark text-white">
-        <div class="container">
-          <hr>
-            <!-- Example row of columns -->
-            <div class="row">
-              <div class="col-md-3">
-                <h2>Our Company</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">Home</a></li><br>
-                  <li><a href="#">About Us</a></li><br>
-                  <li><a href="#">Web Developers in Lagos - Tescom communications</a></li><br>
-                  <li><a href="#">Our Services</a></li><br>
-                  <li><a href="#">Latest Blog</a></li><br>
-                </ul> 
+        <section id="showcase">
+      <div class="container" style="margin-top: 50px;">
+          <div class="row">
+              <div class="col-md-7 col-sm-7">
+                  <h1>Let us put our years of experience to work for your company or organization today.</h1>
+                  <p>We are experts in web technologies and we develop high-end websites and web applications for our clients. We usually offer a full package; making sure that your website is built with a basic on-site search engine optimisation. On request, we can take your SEO further by having a contract with you to build your rankings on search engines over a period of time, which usually ranges from 3 months upwards. Alongside on-site SEO, 
+                    we will also build an off-site SEO for your website (social marketing), which is primarily aimed at driving traffic to your website.</p><br><br>
+                    <p>As all these are being done, we put in place measures to analyse your website and evaluate the effectiveness of the SEO. We will monitor the performance of your website using tools such as Google Analytics and Google Webmaster Tools.</p>
               </div>
-              <div class="col-md-3">
-                <h2>Our Services</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">Mobile App Development</a></li><br>
-                  <li><a href="#"> Web Design Training</a></li><br>
-                  <li><a href="#"> Digital Marketing Training</a></li><br>
-                  <li><a href="#"> Digital Marketing Services</a></li><br>
-                  <li><a href="#"> Recent Articles</a></li><br>
-                </ul> 
-              </div>
-              <div class="col-md-3">
-                <h2>Recent Articles</h2>
-                <p><a href="#" style="color: white;"><h5>Importance of Website Design In The Hotel Industry</h5></a>Web Design Nigeria</p>
-              </div>
-             
-              </p>
-                <form>
-                    <div class="form-row" style="width: 280px;">
-                      <div class="form-group col-md-12">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="comment">Comment:</label>
-                        <textarea class="form-control" rows="5" id="comment"></textarea>
-                      </div>
-                    <button type="submit" class="btn btn-primary">Submit now</button>
-                  </form>
-              </div>
+              <div class="col-md-5 col-sm-5">
+                <div class="showcase-right">
+                    <img src="img/Tescom Digital Academy, Lagos (@tescomdigitalacademy) • Instagram photos and videos_files/Design/apinkecreation bus card 2-1.jpg" style="height: 400px; width: 380px; margin-top: 200px">
+                </div>   
             </div>
-        
           </div>
+      </div><br><br>
+    </div>
+  </section><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-7">
+        <img src="img/Tescom Digital Academy, Lagos (@tescomdigitalacademy) • Instagram photos and videos_files/Design/blematt cosmetics 2-1.jpg" style="height: 300px; width: 400px;">
+      </div >
+      <div class="col-md-5 col-sm-5">
+        <h1>Services we provided</h1>
+        <p>We are experts in web technologies and we develop high-end websites and web applications for our clients. We usually offer a full package; making sure that your website is built with a basic on-site search engine optimisation. On request, we can take your SEO further by having a contract with you to build your rankings on search engines over a period of time, which usually ranges from 3 months upwards. Alongside on-site SEO, 
+          we will also build an off-site SEO for your website (social marketing), which is primarily aimed at driving traffic to your website.</p><br><br>
+          <p>As all these are being done, we put in place measures to analyse your website and evaluate the effectiveness of the SEO. We will monitor the performance of your website using tools such as Google Analytics and Google Webmaster Tools.</p>
+      </div>
+    </div>
+  </div><br><br>
+      <hr>
+      <!-- <div class="container" style="margin-top: 30px;"> -->
+        <!-- Example row of columns -->
+        <!-- <div class="row">
+          <div class="col-md-7">
+            Image here -->
+            <!-- <img src="img/Tescom Digital Academy, Lagos (@tescomdigitalacademy) • Instagram photos and videos_files/tescomcapture.png"> -->
+          <!-- </div>
+          <div class="col-md-5">
+            <h2>Project 3</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. 
+              Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+              text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+              It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+              It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+            <p><a class="btn btn-secondary" href="https://tescom.com.ng/" role="button">Visit Site &raquo;</a></p>
+          </div> -->
+      </div> <!-- /container -->
+      </div>
     
-    
-      </footer>
-        <script 
-        src="https://code.jquery.com/jquery-3.5.1.js" 
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
-        crossorigin="anonymous">
-      </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script>
-          window.sr = ScrollReveal();
-          sr.reveal('.showcase-left',{
-            duration: 2000,
-            
-          })
-        </script>
-    </body>
-    </html>
+
+      <!-- <div class="container" style="margin-top: 30px;">
+        <div class="row">
+          <div class="col-md-5">
+            <h2>Project 4</h2>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+              <p><a class="btn btn-secondary" href="https://tescom.com.ng/" role="button">Visit Site &raquo;</a></p>
+          </div>
+        </div>
+         
+      </div> -->
+     
+
+<!-- --------------------------------------------------------------------footer----------------------------------------------------------------------------- -->
+<footer class="footer py-5 text-white" style="background-color: black; bottom: 0; width: 100%;">
+  <div class="row" style="margin-bottom: 50px;">
+    <div class="col-md-6" style="padding-left:90px; margin-top: 10px;">
+     
+      
+    </div>
+    <div class="col-md-6"style="padding-left:450px; margin-top:10px;">
+     
+    </div>
+  </div>
+  <div class="line-footer" style="border: 1px solid grey; margin-left:80px; margin-right:65px;"></div>
+
+  <hr style="color: white;">
+  <div class="row1" style="margin-left: 90px;">
+    <hr>
+      <!-- Example row of columns -->
+      <div class="row" >
+        <div class="col-md-4">
+          <h3>Tescom Communications</h3>
+          <P><img src="img/Tescom Digital Academy, Lagos (@tescomdigitalacademy) • Instagram photos and videos_files/locatePin.png" alt="locate-address" style="height: 25px; width: 25px; margin-left:-5px;"> 32/36 Fadeyi Bus stop Jibowu Yaba</P>
+          <P><img src="img/Tescom Digital Academy, Lagos (@tescomdigitalacademy) • Instagram photos and videos_files/phoneCall.png" alt="phone" style="height: 25px; width: 25px; ">+2347033134949, +2348025947118</P>
+          <P><img src="img/Tescom Digital Academy, Lagos (@tescomdigitalacademy) • Instagram photos and videos_files/gmail.png" alt="mail" style="height: 25px; width: 30px; ;">info@tescomng.com</P> 
+          <p>...creativity at its peak</p>
+        
+        </div>
+        <div class="col-md-3">
+          <h3>Our Company</h3>
+          <ul class="list-unstyled">
+            <li><a href="#"  style="color: white;">..Home</a></li><br>
+            <li><a href="#"  style="color: white;">..About Us</a></li><br>
+            <li><a href="#"  style="color: white;">..Web Developers in Lagos - Tescom communications</a></li><br>
+            <li><a href="#"  style="color: white; ">..Our Services</a></li><br>
+            <li><a href="#"  style="color: white;">..Latest Blog</a></li><br>
+          </ul> 
+        
+        </div>
+        <div class="col-md-2" style="margin-right:100px">
+          <h3>Our Services</h3>
+          <ul class="list-unstyled">
+            <li><a href="#" style="color: white;">...Mobile App Development</a></li><br>
+            <li><a href="#"  style="color: white;"> ..Web Design Training</a></li><br>
+            <li><a href="#"  style="color: white;"> ..Digital Marketing Training</a></li><br>
+            <li><a href="#"  style="color: white;"> ..Digital Marketing Services</a></li><br>
+            <li><a href="#"  style="color: white;"> ..Recent Articles</a></li><br>
+          </ul> 
+        </div>
+        <!-- <div class="col-md-2" style="margin-right: 30px; margin-left:1px;">
+          <h2>Recent Articles</h2>
+          <p><a href="#" style="color: white;"><h5>Importance of Website Design In The Hotel Industry</h5></a></p>
+        </div> -->
+       
+        </p>
+          <form>
+              <div class="form-row" style="width:px;">
+                <div class="form-group col-md-12">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                  <label for="comment">Comment:</label>
+                  <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+              <button type="submit" class="btn btn-danger">Submit now</button><br><br>
+            </form>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------Copyright---------------------------------------------------------------------------- -->
+    <div class="line-footer shadow" style="border: 1px solid grey; margin-left:80px; margin-right:65px;margin-bottom: 50px;"></div>
+    <!-- Copyright -->
+ <div class="footer-copyright text-left py-3" style="color:white; margin-left: 80px; margin-right: 65px; margin-top: -50px;">© 2020 Copyright:
+  <a href="https://tescom.ng.com/" style="color:red;"> tescom.ng.com</a>
+  <span>  <div class="social media">
+    <h5 style="margin-left: 1155px; margin-top: -25px;">Follow And Chat With Us Now </h5>
+  </div>
+  <div class="icons" style="margin-left: 1150px; margin-top:4px">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-instagram"></a>
+  </div> <br></span>
+</div>
+<!-- Copyright -->
+</footer>
+
+ 
+
+  <!-- -------------------------------------------------------------------End of footer--------------------------------------------------------------------- -->
+    <script 
+    src="https://code.jquery.com/jquery-3.5.1.js" 
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
+    crossorigin="anonymous">
+  </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.showcase-left',{
+        duration: 2000,
+        
+      })
+    </script>
+</body>
+</html>
